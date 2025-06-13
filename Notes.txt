@@ -1,0 +1,13 @@
+first project i am going to build is businesscard 
+
+then here i am going to build it using 
+
+
+        "npx create-expo-app@latest --template"
+
+
+        npx runs locally and used to execute the package 
+
+        create-expo-app is just the package and "@latest" is used to download the current version of the package and then 
+
+        --template is used to download the package with just blank ,or blank typescript
