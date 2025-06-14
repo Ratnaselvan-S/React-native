@@ -3,7 +3,7 @@ first project i am going to build is businesscard
 then here i am going to build it using 
 
 
-        "npx create-expo-app@latest --template"
+        "npx  create-expo-app@latest --template"
 
 
         npx runs locally and used to execute the package 
@@ -11,3 +11,35 @@ then here i am going to build it using
         create-expo-app is just the package and "@latest" is used to download the current version of the package and then 
 
         --template is used to download the package with just blank ,or blank typescript
+
+
+Here i did nothing just "view" is div in web and for "p" "text" in app and img as "Image"
+
+In image aspect ratio is nothing but adjust based on screen size and also on width for every 16px the aspect ratio of height
+increases on 9px 
+
+
+font awesome @expo/vector-icons this is built in default package of icons in expo
+
+
+Button is an component and onpress we can put console.warn
+
+then if we need to mail we can use Linking from react native || Linking.openURL("mailto:ratnaselvan.iqtechmax@gmail.com");
+
+
+safeareaview only works on ios which is built in react native  
+
+i think for android we need to import third party libraries to implement on 
+
+
+npx expo install react-native-safe-area-context this is the command to install the safe area one 
+here we use npx expo it is same as npm install but the key difference is that we will install the package which has support to the 
+current vesion of expo we are using
+
+
+
+so in javascript 0 is considered as falsy and in condition zero came means the condition itself becomes zero so we cam give !! that means first one return true 
+and second one false and also likes>0 we can give
+
+
+showvertivalscrollBar i should give the vertical scrollbar FALSE TO PREVENT IT FROM GIVING 
