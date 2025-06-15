@@ -1,0 +1,25 @@
+
+Here now we are going to put typescript to the props and define what we expect in props
+
+
+hitslope is where we can extend the pressable button it is available in some built in component like "Pressable
+
+react cant keep tract of variable so that is why they have implementted state variables
+
+usestate setter function is async that is when we update the value it does not update in the actual variable after rerender only the update value will be there \
+
+
+
+now async storage this will kepp track of the state even after close ,it is like localstorage in browser
+
+npm i @react-native-async-storage/async-storage this is like local storage to store the value it will be like key and value 
+
+expo secure store to store the encrypted data we can store the encrypted data 
+
+
+Lotti files is where we can take free animation 
+
+npx expo react native lottie animation
+
+
+stylesheet.AbsoluteFill used to fill the entire screen
