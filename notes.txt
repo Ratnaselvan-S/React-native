@@ -22,4 +22,47 @@ Lotti files is where we can take free animation
 npx expo react native lottie animation
 
 
-stylesheet.AbsoluteFill used to fill the entire screen
+stylesheet.AbsoluteFill used to fill the entire screen this is used on the animation of lottie
+
+
+
+expo router it will search in defualt app and the folder structure determine the route and we can skip the folder structure route by wrapping it in round brackets 
+
+the link component used for routing will be wrapped around the text component so that the position will not work to make it work we will put 
+asChild here so that it will in default takes child as it is without wrapping to text but the view does not have property like onpresss so we need to wrap with some component that has 
+onpress
+
+
+
+For dynamic routes 
+
+we need to implement the file name in [] this bracket for symanic and also to get the dynamic route name we will use a hook "uselocalsearchparams" this hook is used to get the 
+dynamic route name
+
+
+
+Now we will leanr react navigation
+
+"@react-navigation/native" - this is the core navigation container we need to wrap this at the root level
+
+"@react-navigation/native-stack" - 
+->  Here first we will use the use "createNativeStackNavigator()" this will create a stack manager then stack.navigator wrapper manager which screen is displayed
+at the top then i screen.navigator intialRoute determines which screen to show first on initial render 
+->  Here  the top level which we have defined in screen have the navigation prop passed down automatically by stack navigation but inside the component there is children means we have 
+to use useNavigation() hook to navigate
+
+"@react-navigation/bottom-tabs"-
+->  this is the same as instagram or twitter we used to see a bottom navigation button to switch between pages (Here the structure is same as stack but we will use tab.navigator and tab.screen )
+
+"@react-navigation/material-top-tabs"
+->  this is like swipe on top of the navigation like for example we will know that like chat status on top we can swipe and we can touch to navigate like in whatsapp
+
+-------------------------------------------------------------------------------------------
+
+"react-native-gesture-handler" - This will handle touch,swipe guesture naturally ,without this it will feel laggy (This is low level languauge and on top of it we can create some good animation and 
+gestures)
+
+"react-native-pager-view" - horizontal swipe view , this under the hood uses "react-native-gesture-handle" and this has alfready been used in material
+
+"react-native-reanimated"- we can define smooth animation on top of this to create some complex animation without affecting the performance of it
+
